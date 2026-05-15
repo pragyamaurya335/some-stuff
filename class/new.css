@@ -1,0 +1,71 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* font-family: "Pacifico", cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+/* font-family: "Nunito", sans-serif; */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+body {
+    background-color:#68696832;
+}
+.homeicon i {
+    font-size: 28px;
+    padding-left: 20px;
+}
+.backicon{
+    font-size: 28px; 
+}
+.navbar {
+  display: flex;            
+  justify-content: space-between;
+  align-items: center;      
+}
+.backicon{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 20px;
+  padding-right: 10px;
+}
+.productdiscont{
+  display: flex;
+  
+}
+#buttbuy{
+  background-color: green;
+  width: 180px;
+  font-size: 26px;
+  font-weight: bolder;
+   box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  border-color: rgb(77, 80, 82);
+  color: rgb(225, 231, 237);
+  border-radius: 15px;
+}
+#buttbuy:hover{
+  color: aliceblue;
+}
+.productdiscont{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 65vh;
+}
+#image{
+  border-radius: 7px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.imgetext{
+  margin-left: 30px;
+  font-size: large;  
+}
+.imgetext h2{
+  font-size: 65px;
+}
+.imgetext h4{
+  font-size: 30px;
+}

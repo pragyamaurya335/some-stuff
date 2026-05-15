@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dom.css">
+</head>
+<body> 
+    <!-- <div>
+         first child
+        <p id="m">javascript dom</p>
+        next sibling of first p
+        <p>javascript dom</p>
+        <p>javascript dom</p>
+        <p>javascript dom</p>
+        
+        <input type="text" name="lang">
+        <input type="text" name="lang" >
+        <h1 class="m">2</h1>
+
+   <div id="cont">
+     <h1 class="message">1</h1>
+        <h1 class="message">2</h1>
+         <h1 class="m">1</h1>
+   </div>
+        
+        <h1>3</h1>
+    </div> -->
+    <!-- dom provied funcation that help to del modiefy and part of the documet effiectly   --> 
+     <!-- dom repersent html doc as tree of nodes -->
+      <!--type of nodes -->
+      <!-- document type node -->
+       <!-- element tyoe node head title html body-->
+        <!-- text node -->
+         <!-- comment type node -->
+
+    <!-- node relationship -->
+     <!-- pranet and child node -->
+
+   <!-- selectiong elements in js  -->
+    <!-- 1 getElementbyid() method gives element object the repersent an html element  -->
+     <!-- getelementbyname() multiple element can have same name  -->
+      <!-- getelemtbytagname() -->
+       <!-- getelementbyclassname() -->
+
+  <!-- queryselector() method allows you yo select the first element that mathces one
+or more css selectors -->
+
+<!-- how to get parent node -->
+<!-- <div class="title">
+    <p>first</p>
+    <p class="sec">hello this is a tect</p>
+    <p>hello this is a tect</p>
+    <p>hello this is a tect</p>
+    <p>last </p>
+</div> -->
+<!-- 
+<ul id="menu">
+    <li>home</li>
+    <li>about</li>
+    <li>blog</li>
+    <li>projects</li>
+</ul> -->
+ 
+<input type="text" id="username" placeholder="username">
+
+<!-- attribute method -->
+<!-- <input type="text" id="username" placeholder="username">
+here we have three attribute  -->
+
+
+
+ <script>
+   let input=document.getElementById("username"); 
+    // console.log(input.attributes)
+        console.log(input.getAttribute("type "));
+        input.setAttribute("class","user");
+        console.log(input); 
+                
+ </script>
+</body>
+</html>
