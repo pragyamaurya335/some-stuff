@@ -1,9 +1,0 @@
-.box{
-  background-color: rgb(246, 163, 215);
-}
-.box:hover{
-  background-color: rgb(191, 42, 171);
-  transform: scale(2.5);
-  transform: rotate(-180deg) ;
-  transition: 10s ease-in;
-}

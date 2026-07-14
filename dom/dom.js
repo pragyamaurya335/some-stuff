@@ -41,7 +41,7 @@
 // list.innerHTML="content";
 // menubar.appendchild(list);
 
-let menu=document.getElementById("menu");
-menu.textContent="hello"
-console.log(menu.innerText);
+// let menu=document.getElementById("menu");
+// menu.textContent="hello"
+// console.log(menu.innerText);
 
